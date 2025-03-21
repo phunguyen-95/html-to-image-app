@@ -32,7 +32,7 @@ const uploadFiles = async (files) => {
 
   try {
     const response = await axios.post(
-      "https://ai-pdf-service.survivalapp.com/api/v1/general/merge-pdfs",
+      "https://ai-pdf-editor-api.survivalapp.com/api/v1/general/merge-pdfs",
       formData,
       {
         headers: {
